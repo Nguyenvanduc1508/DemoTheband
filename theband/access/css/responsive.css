@@ -1,0 +1,79 @@
+/* tablet */
+@media (min-width: 741px) and (max-width: 1023px){
+    #header{
+        height: 46px;
+    }   
+    .mobile-menu-icon{
+        display: none;
+    }
+}
+/* mobile */
+@media (max-width: 740px){
+    #nav{
+        display: block;
+    }   
+    #nav > li{
+        display: block;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #header .search-btn{
+        display: none;
+    }
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+    }
+    #nav li a{
+        padding: 1px 24px;
+    }
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px 41px;
+        width: 100%;
+    }
+    #header .mobile-menu-icon{
+        position: absolute;
+        top: 0;
+        right: 0;
+        float: right;
+        color: #fff;
+    }
+    #nav > li:first-child{
+        display: inline-block;
+    }
+    #header .menu-icon{
+        line-height: 46px;
+        padding: 0 21px;
+    }
+    #header .mobile-menu-icon:hover{
+        color: #000;
+        background-color: #ccc;
+    }
+    #content .member-mobile{
+        width: 100%;
+    }
+    #content .member-name{
+        margin-top: 30px;
+    }
+    #content .member-img{
+        width: 60%;
+    }
+    #content .ticket-mobile{
+        width: 100%;
+        padding-bottom: 16px;
+    }
+    .s-col-full{
+        width: 100%;
+        text-align: center;
+    }
+    .s-mt-16{
+        margin-top: 16px;
+    }
+    .s-mb-8{
+        margin-bottom: 8px;
+    }
+
+
+}
